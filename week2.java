@@ -8,7 +8,7 @@ public class week2 {
     String newTime = LocalTime.now().plusMinutes(55).format(DateTimeFormatter.ofPattern("HH:mm"));
 
     public void main(String[] args) throws Exception {
-        System.out.println("The current time is" + " " + hour + ":" + minute +".");
+        System.out.println("The current time is " + hour + ":" + minute +".");
         System.out.println("In 55 minutes, it will be " + newTime);
     }
 }
